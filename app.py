@@ -15,7 +15,7 @@ import plotly.graph_objs as go
 from ragxplorer import RAGxplorer
 
 st.set_page_config(
-    page_title="RAGxplorer Demo",
+    page_title="RAG 구성 Demo",
     page_icon="🦙",
     layout="wide"
 )
@@ -29,7 +29,7 @@ if "chart" not in st.session_state:
 if "loaded" not in st.session_state:
     st.session_state['loaded'] = False
 
-st.title("RAGxplorer Demo 🦙🦺")
+st.title("RAG 구성 Demo 🦙🦺")
 st.markdown("📦 More details can be found at the GitHub repo [here](https://github.com/gabrielchua/RAGxplorer)")
 
 if not st.session_state['loaded']:
